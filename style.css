@@ -1,0 +1,35 @@
+
+.col-4 ul li a{
+    text-decoration: none;
+    color: rgb(195, 210, 233);
+   
+}
+
+.col-4 ul li{
+    padding: 5px;
+    list-style: none;
+}
+
+.col-4 ul li a:hover{
+    color: rgb(63, 110, 239);
+    transition: all 0.5s ease-in;
+}
+
+.row .colum  {
+      margin-left: 38% ; 
+   
+}
+
+.row .colum a i{
+    padding: 15px;
+    color: rgb(163, 164, 181);
+   font-size: xx-large;
+}
+
+.row .colum a i:hover{
+    color: rgb(135, 173, 231);
+    transition: all 0.5s ease-in;
+}
+
+
+
