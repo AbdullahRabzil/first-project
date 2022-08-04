@@ -32,4 +32,21 @@
 }
 
 
+header .nav-item{
+    text-transform: uppercase;
+}
 
+header .nav-item a:hover{
+    color: rgb(14, 151, 107);
+    transition: all 0.3s ease-in;
+    border-top: 1px solid  rgb(14, 151, 107) ;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.carousel-inner .carousel-item{
+    height:700px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
