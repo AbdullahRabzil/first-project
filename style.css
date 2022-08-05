@@ -18,18 +18,38 @@
 
 .row .colum  {
       margin-left: 38% ; 
+      
+      
    
 }
 
+
+
+.row .colum a{
+    padding: 7px;
+   
+  
+
+}
+.stay{
+    margin-left: 75px;
+}
+
 .row .colum a i{
-    padding: 15px;
-    color: rgb(163, 164, 181);
+    padding: 5px;
+    color: rgb(80, 87, 213);
    font-size: xx-large;
+   background-color: rgb(231, 230, 230);
+   border-radius: 20px;
+   box-shadow: 3px 3px 3px rgb(21, 50, 242);
+   border: 2px solid;
+   
 }
 
 .row .colum a i:hover{
     color: rgb(76, 149, 251);
     transition: all 0.5s ease-in;
+    margin-left: 2px;
 }
 
 
@@ -87,3 +107,32 @@ header .bg{
     height: 100%;
     width: 100%;
 } 
+
+section .about{
+    width: 180px;
+    
+   
+}
+section .service{
+    width: 155px;
+    
+   
+}
+section .contact{
+    width: 380px;
+    
+   
+}
+section .bio-brder{
+    width: 120px;
+}
+
+section .bio{
+    width: 400px;
+    border-left: 20px solid;
+    border-top: 20px solid;
+    box-shadow: 3px 4px 5px rgb(93, 96, 185);
+
+}
+
+ 
