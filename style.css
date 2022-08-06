@@ -1,16 +1,18 @@
 
-.col-4 ul li a{
+
+
+.col-lg-4 ul li a{
     text-decoration: none;
     color: rgb(195, 210, 233);
    
 }
 
-.col-4 ul li{
+.col-lg-4 ul li{
     padding: 5px;
     list-style: none;
 }
 
-.col-4 ul li a:hover{
+.col-lg-4 ul li a:hover{
     color: rgb(210, 101, 82);
     transition: all 0.5s ease-in;
     margin-left: 3px;
@@ -39,9 +41,9 @@
     padding: 5px;
     color: rgb(80, 87, 213);
    font-size: xx-large;
-   background-color: rgb(231, 230, 230);
+   background-color: rgb(63, 12, 12);
    border-radius: 20px;
-   box-shadow: 3px 3px 3px rgb(21, 50, 242);
+   /* box-shadow: 3px 3px 3px rgb(21, 50, 242); */
    border: 2px solid;
    
 }
@@ -66,7 +68,7 @@ header .nav-item a:hover{
     transition: all 0.5s ease-in;
     border-top: 1px solid  rgb(14, 151, 107) ;
     border-bottom: 1px solid  rgb(14, 151, 107) ;
-    background-color: rgb(244, 25, 25);
+    background-color: rgb(148, 57, 57);
     border-radius: 5px;
     /* margin-bottom: 5px; */
 }
@@ -109,12 +111,19 @@ header .bg{
 } 
 
 section .about{
-    width: 180px;
+    width: 165px;
+    
+
     
    
 }
+section .clr{
+    color:rgb(217, 239, 232); 
+    width: 160px;
+
+}
 section .service{
-    width: 155px;
+    width: 150px;
     
    
 }
@@ -133,6 +142,28 @@ section .bio{
     border-top: 20px solid;
     box-shadow: 3px 4px 5px rgb(93, 96, 185);
 
+}
+
+.mid-color{
+    background-color: rgb(217, 239, 232);
+}
+
+.data{
+    background-color: blanchedalmond;
+    border: 1px solid ;
+    border-radius: 10px;
+   
+}
+.data-d{
+    background-color: rgba(3, 23, 33, 0.964);
+}
+
+.card-c{
+    background-color: rgb(217, 239, 232);
+}
+
+.con-bg{
+    background-color:  rgb(215, 220, 224);;
 }
 
  
