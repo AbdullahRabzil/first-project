@@ -1,12 +1,258 @@
-.lorem{
-  padding-top:200px ;
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
 }
 
-header{
-   
-    background-position: center;
-    background-color: rgba(247, 128, 18, 0.951);
-    height: auto;
+:root{
+    --theme:#A82C48 ;
+    --color: #eee;
+    --colorhover: rgb(88, 194, 247);
 }
+
+
+
+header .font-c a{
+    color: var(--theme) ;
+    letter-spacing: 1px;
     
+}
+header .font-c a:hover{
+    color: var(--colorhover);
+    transition: all 0.9s ease-in-out;
+    cursor: pointer;
+    border-bottom: 1px solid var(--theme);
+    margin-top: 2px;
+
+}
+header .font-c button{
+    background-color: var(--theme);
+    color:var(--color);
+}
+header .font-c button:hover{
+    background-color: var(--color);
+    color: var(--theme);
+    transition: all 0.5s ease-in ;
     
+}
+
+header #home .text{
+    margin-top: 200px;
+    transform: translate(50% 50%);
+   
+}
+header #home{
+    background: url(assets/images/bg/bg-1.jpg) no-repeat ;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+
+}
+#home .btn0{
+    background-color: var(--theme) ;
+   color: var(--color);
+
+}
+
+#home .btn0:hover{
+    background-color: var(--color);
+    color: var(--theme);
+    transition: all 0.5s ease-in;
+    
+}
+#home .btn1{
+    border: none;
+}
+#home .btn1:hover{
+    border:2px solid var(--theme);
+}
+
+main  .number {
+    background-color: var(--theme);
+    padding: 50px;
+}
+main .con{
+    text-align: center;
+    color: var(--color);
+}
+
+main section .row .diss{
+    margin-top:50px ;
+}
+main section .diss .baton{
+    background-color: var(--theme);
+    color: var(--color);
+    
+}
+main section .diss .baton:hover{
+    background-color: var(--color);
+    color: var(--theme);
+    transition: all 0.5s ease-in;
+
+}
+main section .check  p i{
+    color: var(--theme);
+    
+
+}
+
+main section .text1{
+    margin-top: 80px;
+}
+
+main #about0{
+   background-image: url(assets/images/bg/bg-2.jpg);
+   background-position: center;
+   background-size: cover;
+   padding: 100px;
+   text-align: center;
+}
+main #about0 .col-12 h2{
+    color: var(--theme);
+}
+
+main .baton{
+    background-color: var(--theme);
+    color: #eee;
+}
+main .baton:hover{
+   background-color:var(--color);
+    color: var(--theme);
+    transition: all 0.5s ease-in;
+
+}
+
+#explore .card .d-inline{
+    color: var(--theme);
+}
+
+.testimonial-section{
+    background-color: var(--theme);
+   padding-bottom: 100px;
+}
+
+
+
+#testimonial .carousel-inner .carousel-item{
+
+ margin-top:120px;
+ padding: 160px  ;
+ 
+ background-color: var(--color);
+ border-radius: 5px;
+ border: 3px solid rgb(136, 165, 221);
+
+ 
+}
+#testimonial .carousel-inner .carousel-item img{
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 45px;
+    border: 3px solid rgb(160, 192, 224);
+    box-shadow: 0px 20px 20px 0 var(--theme);
+}
+#testimonial .carousel-inner .carousel-item h3{
+    color: var(--theme);
+}
+#testimonial .carousel-indicators button{
+  width: 15px;
+  height: 15px;
+   outline: none; 
+  border-radius: 50%;
+ border: 2px solid rgb(120, 143, 212) ;
+
+
+}
+#testimonial .carousel-indicators{
+   bottom: -45px; ; 
+}
+
+
+main .paralal .baton{
+    background-color: var(--theme);
+    color: #eee;
+   border: 2px solid var(--theme);
+}
+
+main .paralal .baton:hover{
+    background-color:var(--color);
+     color: var(--theme);
+     transition: all 0.5s ease-in;
+ 
+ }
+ main .paralal{
+    background-image: url(assets/images/bg/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .paralal h3{
+   color: var(--color);
+ }
+#footer .baton{
+    background-color: var(--theme);
+    color: #eee;
+   border: 2px solid var(--theme);
+    
+}
+
+#footer .baton:hover{
+    background-color:var(--color);
+     color: var(--theme);
+     transition: all 0.5s ease-in;
+}
+#footer .list1 li{
+    list-style: none;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    
+   
+}
+
+#footer  .list1 li a{
+    text-decoration: none;
+    padding:40px;
+    color: var(--color); 
+}
+#footer  ul li a:hover{
+    color: rgb(98, 165, 198);
+    transition: all 0.5s ease-in;
+}
+#footer .list2 li{
+    list-style: none;
+    margin-bottom: 50px;
+    
+}
+#footer .list2 li .fa-brands{
+    font-size: 30px;
+    color: aliceblue;
+}
+#footer  .list2 li a{
+    padding: 20px;
+}
+#footer .list2 li .fa-brands:hover{
+    color:  rgb(98, 165, 198);
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+
+#footer .end{
+    background-color: var(--theme);
+   
+}
+#footer .copyr8{
+    padding-bottom: 1px;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
