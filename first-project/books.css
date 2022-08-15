@@ -5,6 +5,7 @@ body{
     margin: 0; 
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
+    
 }
 
 :root{
@@ -217,6 +218,7 @@ main .paralal .baton:hover{
     text-decoration: none;
     padding:40px;
     color: var(--color); 
+    text-align: center;
 }
 #footer  ul li a:hover{
     color: rgb(98, 165, 198);
@@ -249,10 +251,14 @@ main .paralal .baton:hover{
     letter-spacing: 3px;
 }
 
+@media screen and (max-width:500px) {
+    #footer  .list1 li a{
+        padding: 10px;
+        margin-right: 10px;
+    }
+    
 
-
-
-
+    }
 
 
 
