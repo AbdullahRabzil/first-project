@@ -1,0 +1,67 @@
+:root{
+    --theme:red;
+}
+
+#bio img{
+    margin: 100px;
+    margin-left: 100px;
+    width: 70%;
+
+}
+
+   #contact .prt-1{
+    margin-top: 5rem;
+   }
+
+   @media screen and (max-width:500px){
+    body{ overflow-x: hidden;}
+
+       
+    
+
+ header .part-2 {
+     text-align: center;
+    padding-right: 4rem;
+    padding-top: 3rem;
+    
+    
+   }
+  #about .part-1 {
+    text-align: center;
+    padding-right: 3rem;
+  }
+  #about .part-2{
+    padding-left:3rem ;
+  }
+
+  #education .row{
+     padding-right: rem;
+  }
+  #bio .container img{
+    /* width: 80%; */
+   
+    margin-top: 0;
+
+  }
+
+  #protfolio .row{
+    padding-left: 3rem;
+    border: 4px soli;
+  }
+  #protfolio .row img{
+    border-left: 15px solid  #FFC107;
+    border-top: 8px solid  #FFC107;
+    margin: 5px;
+   
+    
+  }
+ #contact .row .prt-1{
+  margin-top: 0;
+  padding-top: 0;
+ }
+
+ footer h3{
+    letter-spacing: 3px;
+    font-size: 20px;
+ }
+}
